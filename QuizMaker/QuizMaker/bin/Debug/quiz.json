@@ -1,0 +1,39 @@
+{
+  "$type": "QuizMaker.Models.Quiz, QuizMaker",
+  "Title": "My Quiz",
+  "Questions": {
+    "$type": "System.Collections.Generic.List`1[[QuizMaker.Models.Question, QuizMaker]], mscorlib",
+    "$values": [
+      {
+        "$type": "QuizMaker.Models.MultipleChoiceQuestion, QuizMaker",
+        "CorrectAnswer": "Andrei Molina",
+        "QuestionText": "What is my name?",
+        "QuestionChoices": {
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": [
+            "Andrei Molina",
+            "Andei Molina",
+            "Andri Molina",
+            "Andrei Morina"
+          ]
+        },
+        "Point": 1
+      },
+      {
+        "$type": "QuizMaker.Models.MultipleChoiceQuestion, QuizMaker",
+        "CorrectAnswer": "23",
+        "QuestionText": "How old am I?",
+        "QuestionChoices": {
+          "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+          "$values": [
+            "22",
+            "23",
+            "24",
+            "25"
+          ]
+        },
+        "Point": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "$type": "QuizMaker.Models.Quiz, QuizMaker",
+  "Title": "My Quiz",
+  "Questions": {
+    "$type": "System.Collections.Generic.List`1[[QuizMaker.Models.Question, QuizMaker]], mscorlib",
+    "$values": []
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|c:\\users\\andrei\\documents\\github\\quizmaker\\quizmaker\\quizmaker\\forms\\createquizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\forms\\createquizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|c:\\users\\andrei\\documents\\github\\quizmaker\\quizmaker\\quizmaker\\forms\\helpers\\formtoggles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\forms\\helpers\\formtoggles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|c:\\users\\andrei\\documents\\github\\quizmaker\\quizmaker\\quizmaker\\forms\\createquizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\forms\\createquizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\quizmaker\\models\\multiplechoicequestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\models\\multiplechoicequestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\quizmaker\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\quizmaker\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\quizmaker\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\quizmaker\\models\\trueorfalsequestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\models\\trueorfalsequestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\quizmaker\\services\\quizstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\services\\quizstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\quizmaker\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\quizmaker\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB71F8E-5578-43C7-A96B-6AE1CF004F27}|QuizMaker\\QuizMaker.csproj|solutionrelative:quizmaker\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormToggles.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Forms\\Helpers\\FormToggles.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Forms\\Helpers\\FormToggles.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Forms\\Helpers\\FormToggles.cs",
+              "RelativeToolTip": "QuizMaker\\Forms\\Helpers\\FormToggles.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwA0AAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T06:59:36.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateQuizForm.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Forms\\CreateQuizForm.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Forms\\CreateQuizForm.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Forms\\CreateQuizForm.cs",
+              "RelativeToolTip": "QuizMaker\\Forms\\CreateQuizForm.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAnwIYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T05:39:48.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuizService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Services\\QuizService.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Services\\QuizService.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Services\\QuizService.cs",
+              "RelativeToolTip": "QuizMaker\\Services\\QuizService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T07:13:43.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Models\\Quiz.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Models\\Quiz.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Models\\Quiz.cs",
+              "RelativeToolTip": "QuizMaker\\Models\\Quiz.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T07:12:05.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Models\\Question.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Models\\Question.cs",
+              "RelativeToolTip": "QuizMaker\\Models\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T05:54:36.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateQuizForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Forms\\CreateQuizForm.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Forms\\CreateQuizForm.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Forms\\CreateQuizForm.cs [Design]",
+              "RelativeToolTip": "QuizMaker\\Forms\\CreateQuizForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T07:35:23.537Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MultipleChoiceQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Models\\MultipleChoiceQuestion.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Models\\MultipleChoiceQuestion.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Models\\MultipleChoiceQuestion.cs",
+              "RelativeToolTip": "QuizMaker\\Models\\MultipleChoiceQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T05:54:43.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TrueOrFalseQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Models\\TrueOrFalseQuestion.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Models\\TrueOrFalseQuestion.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Models\\TrueOrFalseQuestion.cs",
+              "RelativeToolTip": "QuizMaker\\Models\\TrueOrFalseQuestion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T05:54:50.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuizStorage.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Services\\QuizStorage.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Services\\QuizStorage.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Services\\QuizStorage.cs",
+              "RelativeToolTip": "QuizMaker\\Services\\QuizStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T07:15:10.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Forms\\MainForm.cs [Design]",
+              "RelativeToolTip": "QuizMaker\\Forms\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T07:18:37.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "QuizMaker\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\GitHub\\QuizMaker\\QuizMaker\\QuizMaker\\Forms\\MainForm.cs",
+              "RelativeToolTip": "QuizMaker\\Forms\\MainForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAjwBYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T07:18:51.4Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
