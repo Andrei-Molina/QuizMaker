@@ -45,12 +45,14 @@
             this.txtChoiceB = new System.Windows.Forms.TextBox();
             this.txtChoiceA = new System.Windows.Forms.TextBox();
             this.tofPanel = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.rbTrue = new System.Windows.Forms.RadioButton();
             this.rbFalse = new System.Windows.Forms.RadioButton();
+            this.rbTrue = new System.Windows.Forms.RadioButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.buttonFlowLayout = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.numPoints)).BeginInit();
             this.mcqPanel.SuspendLayout();
             this.tofPanel.SuspendLayout();
+            this.buttonFlowLayout.SuspendLayout();
             this.SuspendLayout();
             // 
             // listBoxQuestions
@@ -91,7 +93,7 @@
             // 
             // btnAddMCQ
             // 
-            this.btnAddMCQ.Location = new System.Drawing.Point(165, 59);
+            this.btnAddMCQ.Location = new System.Drawing.Point(3, 3);
             this.btnAddMCQ.Name = "btnAddMCQ";
             this.btnAddMCQ.Size = new System.Drawing.Size(95, 23);
             this.btnAddMCQ.TabIndex = 9;
@@ -112,7 +114,7 @@
             // btnSave
             // 
             this.btnSave.Enabled = false;
-            this.btnSave.Location = new System.Drawing.Point(165, 513);
+            this.btnSave.Location = new System.Drawing.Point(210, 3);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(95, 23);
             this.btnSave.TabIndex = 12;
@@ -123,17 +125,18 @@
             // 
             // btnAddToF
             // 
-            this.btnAddToF.Location = new System.Drawing.Point(266, 59);
+            this.btnAddToF.Location = new System.Drawing.Point(104, 3);
             this.btnAddToF.Name = "btnAddToF";
             this.btnAddToF.Size = new System.Drawing.Size(100, 23);
             this.btnAddToF.TabIndex = 10;
             this.btnAddToF.Text = "Add ToF";
             this.btnAddToF.UseVisualStyleBackColor = true;
+            this.btnAddToF.Click += new System.EventHandler(this.btnAddToF_Click);
             // 
             // btnCancel
             // 
             this.btnCancel.Enabled = false;
-            this.btnCancel.Location = new System.Drawing.Point(271, 513);
+            this.btnCancel.Location = new System.Drawing.Point(311, 3);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(95, 23);
             this.btnCancel.TabIndex = 13;
@@ -144,7 +147,6 @@
             // 
             // mcqPanel
             // 
-            this.mcqPanel.Controls.Add(this.tofPanel);
             this.mcqPanel.Controls.Add(this.label3);
             this.mcqPanel.Controls.Add(this.cbCorrectAnswer);
             this.mcqPanel.Controls.Add(this.txtChoiceD);
@@ -207,31 +209,10 @@
             this.tofPanel.Controls.Add(this.rbTrue);
             this.tofPanel.Controls.Add(this.label4);
             this.tofPanel.Enabled = false;
-            this.tofPanel.Location = new System.Drawing.Point(0, 0);
+            this.tofPanel.Location = new System.Drawing.Point(166, 272);
             this.tofPanel.Name = "tofPanel";
             this.tofPanel.Size = new System.Drawing.Size(656, 235);
             this.tofPanel.TabIndex = 16;
-            this.tofPanel.Visible = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 10);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 16);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "True or False";
-            // 
-            // rbTrue
-            // 
-            this.rbTrue.AutoSize = true;
-            this.rbTrue.Location = new System.Drawing.Point(97, 41);
-            this.rbTrue.Name = "rbTrue";
-            this.rbTrue.Size = new System.Drawing.Size(56, 20);
-            this.rbTrue.TabIndex = 16;
-            this.rbTrue.TabStop = true;
-            this.rbTrue.Text = "True";
-            this.rbTrue.UseVisualStyleBackColor = true;
             // 
             // rbFalse
             // 
@@ -244,17 +225,47 @@
             this.rbFalse.Text = "False";
             this.rbFalse.UseVisualStyleBackColor = true;
             // 
+            // rbTrue
+            // 
+            this.rbTrue.AutoSize = true;
+            this.rbTrue.Location = new System.Drawing.Point(97, 41);
+            this.rbTrue.Name = "rbTrue";
+            this.rbTrue.Size = new System.Drawing.Size(56, 20);
+            this.rbTrue.TabIndex = 16;
+            this.rbTrue.TabStop = true;
+            this.rbTrue.Text = "True";
+            this.rbTrue.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(3, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 16);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "True or False";
+            // 
+            // buttonFlowLayout
+            // 
+            this.buttonFlowLayout.AutoSize = true;
+            this.buttonFlowLayout.Controls.Add(this.btnAddMCQ);
+            this.buttonFlowLayout.Controls.Add(this.btnAddToF);
+            this.buttonFlowLayout.Controls.Add(this.btnSave);
+            this.buttonFlowLayout.Controls.Add(this.btnCancel);
+            this.buttonFlowLayout.Location = new System.Drawing.Point(166, 51);
+            this.buttonFlowLayout.Name = "buttonFlowLayout";
+            this.buttonFlowLayout.Size = new System.Drawing.Size(653, 30);
+            this.buttonFlowLayout.TabIndex = 17;
+            // 
             // CreateQuizForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 548);
+            this.Controls.Add(this.buttonFlowLayout);
+            this.Controls.Add(this.tofPanel);
             this.Controls.Add(this.mcqPanel);
-            this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnAddToF);
-            this.Controls.Add(this.btnAddMCQ);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtQuestion);
             this.Controls.Add(this.numPoints);
@@ -267,6 +278,7 @@
             this.mcqPanel.PerformLayout();
             this.tofPanel.ResumeLayout(false);
             this.tofPanel.PerformLayout();
+            this.buttonFlowLayout.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,5 +306,6 @@
         private System.Windows.Forms.RadioButton rbFalse;
         private System.Windows.Forms.RadioButton rbTrue;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.FlowLayoutPanel buttonFlowLayout;
     }
 }

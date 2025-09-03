@@ -80,8 +80,28 @@ namespace QuizMaker.Forms
 
         private void btnAddMCQ_Click(object sender, EventArgs e)
         {
+            FormToggle.RemoveAddControls(flowLayout: buttonFlowLayout, btnAdd_MCQ: btnAddMCQ, btnAdd_ToF: btnAddToF);
+            FormToggle.AddSaveCancel(flowLayout: buttonFlowLayout, btnSave: btnSave, btnCancel: btnCancel);
             FormToggle.ToggleMCQ(mcqPanel: mcqPanel, tofPanel: tofPanel, textQuestion: txtQuestion, numPoints: numPoints);
             FormToggle.ToggleButtons(save: btnSave, cancel: btnCancel, addMCQ: btnAddMCQ, addToF: btnAddToF);
+            FormClearer.ClearTextChoices(txtChoiceA: txtChoiceA, txtChoiceB: txtChoiceB, txtChoiceC: txtChoiceC, txtChoiceD: txtChoiceD);
+            FormClearer.ClearText(txtQuestion: txtQuestion);
+            FormClearer.ClearNumPoints(numPoints: numPoints);
+            FormClearer.ClearCorrectAnswer(cbCorrectAnswer: cbCorrectAnswer);
+            listBoxQuestions.SelectedIndex = -1;
+        }
+
+        private void btnAddToF_Click(object sender, EventArgs e)
+        {
+            FormToggle.RemoveAddControls(flowLayout: buttonFlowLayout, btnAdd_MCQ: btnAddMCQ, btnAdd_ToF: btnAddToF);
+            FormToggle.AddSaveCancel(flowLayout: buttonFlowLayout, btnSave: btnSave, btnCancel: btnCancel);
+            FormToggle.ToggleToF(mcqPanel: mcqPanel, tofPanel: tofPanel, textQuestion: txtQuestion, numPoints: numPoints);
+            FormToggle.ToggleButtons(save: btnSave, cancel: btnCancel, addMCQ: btnAddMCQ, addToF: btnAddToF);
+            FormClearer.ClearRadioButton(rbTrue: rbTrue, rbFalse: rbFalse);
+            FormClearer.ClearText(txtQuestion: txtQuestion);
+            FormClearer.ClearNumPoints(numPoints: numPoints);
+            FormClearer.ClearCorrectAnswer(cbCorrectAnswer: cbCorrectAnswer);
+            listBoxQuestions.SelectedIndex = -1;
         }
 
         private void CreateQuizForm_FormClosing(object sender, FormClosingEventArgs e)
@@ -111,9 +131,10 @@ namespace QuizMaker.Forms
                     cbCorrectAnswer.SelectedItem = mcq.CorrectAnswer;
                 }
 
-                else if (q is TrueOrFalseQuestion tff)
+                else if (q is TrueOrFalseQuestion tof)
                 {
-                    
+                    rbTrue.Checked = tof.CorrectAnswer;
+                    rbFalse.Checked = !tof.CorrectAnswer;
                 }
             }
         }
@@ -141,14 +162,29 @@ namespace QuizMaker.Forms
             }
             else if (_questionType == questionType.tof)
             {
+                var q = new TrueOrFalseQuestion
+                {
+                    QuestionText = txtQuestion.Text,
+                    Point = (int)numPoints.Value,
+                    CorrectAnswer = rbTrue.Checked
+                };
 
+                _quizService.AddQuestion(q);
+                listBoxQuestions.Items.Add(q);
             }
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
+            FormToggle.AddAddControls(flowLayout: buttonFlowLayout, btnAdd_MCQ: btnAddMCQ, btnAdd_ToF: btnAddToF);
+            FormToggle.RemoveSaveCancel(flowLayout: buttonFlowLayout, btnSave: btnSave, btnCancel: btnCancel);
             FormToggle.ToggleMCQ(mcqPanel: mcqPanel, tofPanel: tofPanel, textQuestion: txtQuestion, numPoints: numPoints, enabled: false);
             FormToggle.ToggleButtons(save: btnSave, cancel: btnCancel, addMCQ: btnAddMCQ, addToF: btnAddToF, editing: false);
+            FormClearer.ClearTextChoices(txtChoiceA: txtChoiceA, txtChoiceB: txtChoiceB, txtChoiceC: txtChoiceC, txtChoiceD: txtChoiceD);
+            FormClearer.ClearText(txtQuestion: txtQuestion);
+            FormClearer.ClearNumPoints(numPoints: numPoints);
+            FormClearer.ClearRadioButton(rbTrue: rbTrue, rbFalse: rbFalse);
+            FormClearer.ClearCorrectAnswer(cbCorrectAnswer: cbCorrectAnswer);
         }
     }
 }
